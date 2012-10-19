@@ -32,9 +32,13 @@ public class HelloWorldAction extends ActionSupport {
 	public String execute() throws Exception {
 		
 		messageStore = new MessageStore() ;
+
 		System.out.println("Iam in Execute Block once again ");
+System.out.println("CHANGED IN THE GITHUB SERVER TO GET THE REFLECTION AT THE LOCAL ECLIPSE");
 		return SUCCESS;
 	}
+
+
 
 	public MessageStore getMessageStore() {
 		return messageStore;
